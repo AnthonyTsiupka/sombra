@@ -1,0 +1,102 @@
+@import sass/mixins
+
+// variables
+$color-primary: #55c57a
+$color-grey-dark: #777
+$color-white: #fff
+$color-black: #000
+$default-font-size: 1rem
+
+// buttons styles
+.btn
+    &,
+    &:link,
+    &:visited
+        text-transform: uppercase
+        text-decoration: none
+        padding: 1.5rem 4rem
+        display: inline-block
+        border-radius: 10rem
+        transition: all .2s
+        position: relative
+        font-size: $default-font-size
+
+        border: none
+        cursor: pointer
+
+    &:hover
+        transform: translateY(-3px)
+        box-shadow: 0 1rem 2rem rgba($color-black,.2)
+
+        &::after
+            transform: scaleX(1.4) scaleY(1.6)
+            opacity: 0
+
+    &:active,
+    &:focus
+        outline: none
+        transform: translateY(-1px)
+        box-shadow: 0 .5rem 1rem rgba($color-black,.2)
+
+    &-white
+        background-color: $color-white
+        color: $color-grey-dark
+
+        &::after
+            background-color: $color-white
+
+    &-green
+        background-color: $color-primary
+        color: $color-white
+
+        &::after
+            background-color: $color-primary
+
+    &::after
+        content: ""
+        display: inline-block
+        height: 100%
+        width: 100%
+        border-radius: 10rem
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -1
+        transition: all .4s
+
+.btn-text
+    &:link,
+    &:visited
+        font-size: $default-font-size
+        color: $color-primary
+        display: inline-block
+        text-decoration: none
+        border-bottom: 1px solid $color-primary
+        border-radius: 4px
+        padding: 3px
+        transition: all .2s
+        font-size: 1.25rem
+
+    &:hover, &.active
+        background-color: $color-primary
+        color: $color-white
+        box-shadow: 0 1rem 2rem rgba($color-black, .15)
+        transform: translateY(-2px)
+
+    &:active
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15)
+        transform: translateY(0)
+
+::-webkit-scrollbar
+    width: 10px
+
+::-webkit-scrollbar-track
+    background: #f1f1f1
+
+::-webkit-scrollbar-thumb
+    background: #888
+    &:hover
+        background: #555
+
+*
+    scrollbar-width: thin

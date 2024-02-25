@@ -1,0 +1,489 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smart TV",
+            "type": "TVs",
+            "price": 499.99,
+            "rating": 4,
+            "description": "A smart TV with advanced features.",
+            "reviews": [
+                {
+                    "id": "1",
+                    "user": "John Doe",
+                    "comment": "Great TV!",
+                    "rating": 5
+                },
+                {
+                    "id": "2",
+                    "user": "Jane Doe",
+                    "comment": "Good value for money.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Refrigerator",
+            "type": "Appliances",
+            "price": 799.99,
+            "rating": 3,
+            "description": "A large refrigerator with multiple compartments.",
+            "reviews": [
+                {
+                    "id": "3",
+                    "user": "Alice Smith",
+                    "comment": "Spacious and efficient.",
+                    "rating": 4
+                },
+                {
+                    "id": "4",
+                    "user": "Bob Johnson",
+                    "comment": "Not too noisy.",
+                    "rating": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Smartphone",
+            "type": "Phones",
+            "price": 699.99,
+            "rating": 5,
+            "description": "A high-end smartphone with a powerful camera.",
+            "reviews": [
+                {
+                    "id": "5",
+                    "user": "Eva Davis",
+                    "comment": "Amazing camera quality!",
+                    "rating": 5
+                },
+                {
+                    "id": "6",
+                    "user": "Chris Anderson",
+                    "comment": "Fast and responsive.",
+                    "rating": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Gaming Console",
+            "type": "Video Games",
+            "price": 299.99,
+            "rating": 4,
+            "description": "A gaming console for an immersive gaming experience.",
+            "reviews": [
+                {
+                    "id": "7",
+                    "user": "Grace Wilson",
+                    "comment": "Great graphics!",
+                    "rating": 4
+                },
+                {
+                    "id": "8",
+                    "user": "Daniel Miller",
+                    "comment": "Easy to use.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Laptop",
+            "type": "Video Games",
+            "price": 899.99,
+            "rating": 4,
+            "description": "A powerful laptop for work and entertainment.",
+            "reviews": [
+                {
+                    "id": "9",
+                    "user": "Emily Brown",
+                    "comment": "Great performance!",
+                    "rating": 5
+                },
+                {
+                    "id": "10",
+                    "user": "Michael Taylor",
+                    "comment": "Excellent build quality.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Microwave Oven",
+            "type": "Appliances",
+            "price": 149.99,
+            "rating": 3,
+            "description": "A compact microwave oven for quick heating.",
+            "reviews": [
+                {
+                    "id": "11",
+                    "user": "Olivia White",
+                    "comment": "Easy to use.",
+                    "rating": 4
+                },
+                {
+                    "id": "12",
+                    "user": "David Martinez",
+                    "comment": "Good value for money.",
+                    "rating": 3
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Tablet",
+            "type": "Video Games",
+            "price": 399.99,
+            "rating": 4,
+            "description": "A versatile tablet for work and entertainment.",
+            "reviews": [
+                {
+                    "id": "13",
+                    "user": "Sophia Rodriguez",
+                    "comment": "Sleek design.",
+                    "rating": 4
+                },
+                {
+                    "id": "14",
+                    "user": "James Garcia",
+                    "comment": "Responsive touch screen.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Blender",
+            "type": "Appliances",
+            "price": 59.99,
+            "rating": 3,
+            "description": "A powerful blender for smoothies and shakes.",
+            "reviews": [
+                {
+                    "id": "15",
+                    "user": "Ava Thompson",
+                    "comment": "Good for making juices.",
+                    "rating": 4
+                },
+                {
+                    "id": "16",
+                    "user": "Logan Clark",
+                    "comment": "Affordable and effective.",
+                    "rating": 3
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Headphones",
+            "type": "Video Games",
+            "price": 129.99,
+            "rating": 5,
+            "description": "High-quality headphones for immersive audio experience.",
+            "reviews": [
+                {
+                    "id": "17",
+                    "user": "Mia Hall",
+                    "comment": "Great sound quality.",
+                    "rating": 5
+                },
+                {
+                    "id": "18",
+                    "user": "Elijah Adams",
+                    "comment": "Comfortable to wear for long periods.",
+                    "rating": 5
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Coffee Maker",
+            "type": "Appliances",
+            "price": 79.99,
+            "rating": 4,
+            "description": "An automatic coffee maker for your daily caffeine fix.",
+            "reviews": [
+                {
+                    "id": "19",
+                    "user": "Scarlett Harris",
+                    "comment": "Easy to use and clean.",
+                    "rating": 4
+                },
+                {
+                    "id": "20",
+                    "user": "Carter Baker",
+                    "comment": "Makes delicious coffee.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Air Purifier",
+            "type": "Appliances",
+            "price": 199.99,
+            "rating": 4,
+            "description": "Keep your air clean with this efficient air purifier.",
+            "reviews": [
+                {
+                    "id": "21",
+                    "user": "Liam Turner",
+                    "comment": "Great for allergies.",
+                    "rating": 4
+                },
+                {
+                    "id": "22",
+                    "user": "Stella Reed",
+                    "comment": "Quiet operation.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Fitness Tracker",
+            "type": "Appliances",
+            "price": 79.99,
+            "rating": 4,
+            "description": "Monitor your fitness activities with this versatile tracker.",
+            "reviews": [
+                {
+                    "id": "23",
+                    "user": "Noah Griffin",
+                    "comment": "Accurate step counting.",
+                    "rating": 4
+                },
+                {
+                    "id": "24",
+                    "user": "Lucy Hayes",
+                    "comment": "Sleek design.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Toaster",
+            "type": "Appliances",
+            "price": 39.99,
+            "rating": 3,
+            "description": "A reliable toaster for your morning toast.",
+            "reviews": [
+                {
+                    "id": "25",
+                    "user": "Aiden Fitzgerald",
+                    "comment": "Simple and effective.",
+                    "rating": 3
+                },
+                {
+                    "id": "26",
+                    "user": "Hazel Butler",
+                    "comment": "Toasts evenly.",
+                    "rating": 3
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Robot Vacuum",
+            "type": "Appliances",
+            "price": 299.99,
+            "rating": 4,
+            "description": "Effortlessly keep your floors clean with this robotic vacuum.",
+            "reviews": [
+                {
+                    "id": "27",
+                    "user": "Oliver Hudson",
+                    "comment": "Saves a lot of time!",
+                    "rating": 4
+                },
+                {
+                    "id": "28",
+                    "user": "Piper Rogers",
+                    "comment": "Works well on different surfaces.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Security Camera",
+            "type": "Appliances",
+            "price": 129.99,
+            "rating": 4,
+            "description": "Monitor your home with this advanced security camera.",
+            "reviews": [
+                {
+                    "id": "29",
+                    "user": "Mason Foster",
+                    "comment": "Clear video quality.",
+                    "rating": 4
+                },
+                {
+                    "id": "30",
+                    "user": "Layla Cox",
+                    "comment": "Easy to set up.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Portable Speaker",
+            "type": "Phones",
+            "price": 59.99,
+            "rating": 3,
+            "description": "Take your music anywhere with this compact portable speaker.",
+            "reviews": [
+                {
+                    "id": "31",
+                    "user": "Silas Cooper",
+                    "comment": "Decent sound for the size.",
+                    "rating": 3
+                },
+                {
+                    "id": "32",
+                    "user": "Nina Richardson",
+                    "comment": "Long battery life.",
+                    "rating": 3
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Smart Thermostat",
+            "type": "Appliances",
+            "price": 149.99,
+            "rating": 4,
+            "description": "Control your home's temperature with this smart thermostat.",
+            "reviews": [
+                {
+                    "id": "33",
+                    "user": "Levi Cooper",
+                    "comment": "Saves energy efficiently.",
+                    "rating": 4
+                },
+                {
+                    "id": "34",
+                    "user": "Eva Griffin",
+                    "comment": "Intuitive app interface.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Digital Camera",
+            "type": "Phones",
+            "price": 399.99,
+            "rating": 5,
+            "description": "Capture stunning moments with this high-quality digital camera.",
+            "reviews": [
+                {
+                    "id": "35",
+                    "user": "Liam Turner",
+                    "comment": "Excellent image quality.",
+                    "rating": 5
+                },
+                {
+                    "id": "36",
+                    "user": "Stella Reed",
+                    "comment": "Easy to use for beginners.",
+                    "rating": 5
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Vacuum Cleaner",
+            "type": "Appliances",
+            "price": 129.99,
+            "rating": 4,
+            "description": "Keep your home clean with this powerful vacuum cleaner.",
+            "reviews": [
+                {
+                    "id": "37",
+                    "user": "Aiden Fitzgerald",
+                    "comment": "Great suction power.",
+                    "rating": 4
+                },
+                {
+                    "id": "38",
+                    "user": "Hazel Butler",
+                    "comment": "Easy to maneuver.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Wireless Earbuds",
+            "type": "Phones",
+            "price": 89.99,
+            "rating": 4,
+            "description": "Enjoy music on the go with these wireless earbuds.",
+            "reviews": [
+                {
+                    "id": "39",
+                    "user": "Ava Thompson",
+                    "comment": "Comfortable fit.",
+                    "rating": 4
+                },
+                {
+                    "id": "40",
+                    "user": "Logan Clark",
+                    "comment": "Clear sound quality.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Smart Doorbell",
+            "type": "Appliances",
+            "price": 199.99,
+            "rating": 4,
+            "description": "Enhance your home security with this smart doorbell.",
+            "reviews": [
+                {
+                    "id": "41",
+                    "user": "Mia Hall",
+                    "comment": "Easy to install.",
+                    "rating": 4
+                },
+                {
+                    "id": "42",
+                    "user": "Elijah Adams",
+                    "comment": "Responsive app notifications.",
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Cordless Drill",
+            "type": "Appliances",
+            "price": 79.99,
+            "rating": 3,
+            "description": "Complete your DIY projects with this powerful cordless drill.",
+            "reviews": [
+                {
+                    "id": "43",
+                    "user": "Scarlett Harris",
+                    "comment": "Long battery life.",
+                    "rating": 3
+                },
+                {
+                    "id": "44",
+                    "user": "Carter Baker",
+                    "comment": "Durable design.",
+                    "rating": 3
+                }
+            ]
+        }
+    ],
+    "cart": []
+}

@@ -1,0 +1,42 @@
+.card
+  perspective: 150rem
+  -moz-perspective: 150rem
+  position: relative
+  height: 20rem
+
+  img
+    max-height: 10rem
+    max-width: 10rem
+
+  &-side
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    font-size: 1rem
+    height: 20rem
+    transition: all .8s ease
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    backface-visibility: hidden
+    border-radius: 4px
+    text-align: center
+
+    box-shadow: 0 1.5rem 4rem rgba(#000, .30)
+
+    &-front
+      background-color: #fff
+
+    &-back
+      background-color: #c7c7c7
+      transform: rotateY(180deg)
+      .btn
+        max-width: 90%
+
+  &:hover &-side-front
+    transform: rotateY(180deg)
+
+  &:hover &-side-back
+    transform: rotateY(0)

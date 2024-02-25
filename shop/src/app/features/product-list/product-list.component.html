@@ -1,0 +1,67 @@
+<div class="filter-section">
+  <div class="dropdown type">
+    <div (click)="isOpenTypeDrop = !isOpenTypeDrop" class="title">Type</div>
+    <div *ngIf="isOpenTypeDrop" class="options">
+      <div class="option" (click)="onSelectType('All')">All</div>
+      <div class="option" (click)="onSelectType('TVs')">TVs</div>
+      <div class="option" (click)="onSelectType('Appliances')">Appliances</div>
+      <div class="option" (click)="onSelectType('Phones')">Phones</div>
+      <div class="option" (click)="onSelectType('Video Games')">
+        Video Games
+      </div>
+    </div>
+  </div>
+
+  <input
+    type="text"
+    id="searchInput"
+    [(ngModel)]="searchQuery"
+    (input)="applyFilters()"
+  />
+
+  <div class="dropdown price">
+    <div (click)="isOpenPriceDrop = !isOpenPriceDrop" class="title">Price</div>
+    <div *ngIf="isOpenPriceDrop" class="options">
+      <div class="option">
+        <input
+          type="checkbox"
+          id="priceFilter"
+          [(ngModel)]="priceFilters.low"
+          (change)="applyFilters()"
+        />
+        $10-$100
+      </div>
+      <div class="option">
+        <input
+          type="checkbox"
+          id="priceFilter"
+          [(ngModel)]="priceFilters.medium"
+          (change)="applyFilters()"
+        />
+        $100-$500
+      </div>
+      <div class="option">
+        <input
+          type="checkbox"
+          id="priceFilter"
+          [(ngModel)]="priceFilters.high"
+          (change)="applyFilters()"
+        />
+        $500+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="product-list">
+  <app-product-card
+    *ngFor="let product of filteredProducts"
+    [product]="product"
+  ></app-product-card>
+</div>
+<mat-paginator
+  *ngIf="filteredProductsBackup.length > 9"
+  [length]="filteredProductsBackup.length"
+  [pageSize]="9"
+  (page)="onPageChange($event)"
+></mat-paginator>

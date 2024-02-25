@@ -1,0 +1,39 @@
+@import '/src/sass/mixins'
+
+.product-details-modal
+  .product-details
+    background-color: #fff
+    padding: 20px
+    border-radius: 8px
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+    text-align: center
+
+    .product-image
+      max-width: 17rem
+      border-radius: 4px
+      @include mobile-endpoint
+        max-width: 14rem
+
+    .product-name
+      font-size: 1.5em
+      margin-top: 10px
+
+    .product-price
+      font-size: 1.2em
+      color: #007bff
+
+    .product-rating
+      margin: 10px 0
+      font-size: 1.2em
+
+      .material-icons
+        color: #ffc107
+        margin-right: 5px
+
+    .product-description
+      margin-top: 10px
+
+    .btn
+      padding: 10px 15px
+      font-size: 1em
+      margin-top: 15px

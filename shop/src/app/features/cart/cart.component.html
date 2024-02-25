@@ -1,0 +1,34 @@
+<div class="cart">
+  <div *ngIf="cartItems.length === 0; else cartItemsList">
+    <div class="empty-page">
+      <img src="assets/images/empty-cart.png" alt="empty page" />
+      <p>Your cart is empty.</p>
+    </div>
+  </div>
+  <ng-template #cartItemsList>
+    <div class="cart-items-wrapper">
+      <ng-container *ngFor="let item of cartItems; index as i">
+        <div class="cart-item">
+          <img
+            [src]="'assets/images/products/' + item.type + '.png'"
+            alt="{{ item.name }}"
+            class="cart-item-image"
+          />
+          <div class="cart-item-details">
+            <p class="cart-item-name">{{ item.name }}</p>
+            <p class="cart-item-price">{{ item.price | currency }}</p>
+            <div class="cart-item-rating">
+              <span class="material-icons">star</span> {{ item.rating }}
+            </div>
+            <div class="btn" (mouseup)="removeFromCart(item.name, i)">
+              remove
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-template>
+  <div *ngIf="cartItems.length" (mouseup)="clearCart()" class="btn clear">
+    clear cart
+  </div>
+</div>
